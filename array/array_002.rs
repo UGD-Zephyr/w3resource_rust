@@ -29,6 +29,12 @@ fn main(){
         .parse()
         .expect("Not a number...");
  
+        if user_input_vector_length == 1{
+            println!("Enter {} element: ", user_input_vector_length);
+        }
+        else{
+            println!("Enter {} elements: ", user_input_vector_length);
+        }
         for loop_counter1 in 0..user_input_vector_length{
             print!("Element - {}: ", loop_counter1);
             let mut user_input_vector_value = String::new();
@@ -47,7 +53,9 @@ fn main(){
             vector1.push(user_input_vector_value);
         }
 
-        println!("The last vector: {:?}", vector1);
+        println!("The original vector: {:?}", vector1);
+        vector1.reverse();
+        println!("The vector reversed: {:?}", vector1);
 
 
 } 
