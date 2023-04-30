@@ -1,26 +1,45 @@
 /* Programmer:          Per Stoor
- * Date:                2023-04-25
- * Last changed:        2023-04-25
- * Type of program:     
+ * Date:                2023-04-30
+ * Last changed:        2023-04-30
+ * Type of program:     Store elements in an array and print it.
  */
+
+use std::io;
+use std::io::Write;
 
 fn main(){ 
 
-    let array1: [i32; 5] = [1, 2, 3, 4, 5];
-    let mut total_loops: usize = 0;
+    let mut array1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    introduction();
 
-    /*
-     * Other valid options for printing an array on the screen.
-     *
-    println!("{:?}", array1);
-    println!("{:#?}", array1);
-    */
+        for loop_counter1 in 0..10{
 
-        for index in 0..array1.len(){
-            print!("{} ", array1[index]);
-            total_loops = index + 1;
+            print!("Element - {}: ", loop_counter1);
+            let mut user_input = String::new();
+            io::stdout()
+                .flush()
+                .unwrap();
+            io::stdin()
+                .read_line(&mut user_input)
+                .expect("Not a string...");
+
+            let user_input: u32 = user_input
+                .trim()
+                .parse()
+                .expect("Not a number...");
+
+            array1[loop_counter1] = user_input;
         }
-        println!("Total loops: {}", total_loops);
+
+        print!("Elements in the array are: ");
+        for loop_counter1 in 0..10{
+            print!(" {}", array1[loop_counter1]);
+        }
         println!();
 
+
 } 
+
+fn introduction(){
+    println!("Input 10 elements into the Array: ");
+}
