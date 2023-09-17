@@ -15,26 +15,31 @@ fn main(){
     let mut user_choice = 0.0;
     while user_choice != 3.0{
 
-        clear_screen(); 
         conversion_menu();
         user_choice = string_to_float();
             if user_choice == 1.0{
 
                 
 
-                println!("Please enter Kilometer per hour: ");
+                print!("Please enter Kilometer per hour: ");
                 let kilometer = string_to_float();
                 let mile = kilometer_to_mile(kilometer);
 
                 println!("{:.2} Kilometer / Hour equals {:.2} Miles / Hour", kilometer, mile);
+                print!("Press Enter to start over.");
+                let _ = string_to_empty_line();
+                clear_screen(); 
             }
             else if user_choice == 2.0 {
 
-                println!("Please enter Miles per hour: ");
+                print!("Please enter Miles per hour: ");
                 let mile = string_to_float();
                 let kilometer = mile_to_kilometer(mile);
 
                 println!("{:.2} Miles / Hour equal {:.2} Kilometers / Hour", mile, kilometer);
+                print!("Press Enter to start over.");
+                let _ = string_to_empty_line();
+                clear_screen(); 
             }
             else if user_choice == 3.0 {
 
@@ -42,6 +47,9 @@ fn main(){
             }
             else{
                 println!("Error: Menu selection failed.");
+                print!("Press Enter to start over.");
+                let _ = string_to_empty_line();
+                clear_screen(); 
             }
 
     }
@@ -67,6 +75,20 @@ fn conversion_menu(){
     println!("1. Kilometer to Mile.");
     println!("2. Mile to Kilometer .");
     println!("3. Exit program.");
+}
+
+fn string_to_empty_line(){
+    
+    let mut string_empty_buffer = String::new();
+
+    io::stdout()
+        .flush()
+        .unwrap();
+
+    io::stdin()
+        .read_line(&mut string_empty_buffer)
+        .expect("Error: Cannot read string input.");
+
 }
 
 fn string_to_float() -> f32{
