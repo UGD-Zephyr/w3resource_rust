@@ -1,0 +1,98 @@
+C Basic-II [7 exercises with solution]
+[An editor is available at the bottom of the page to write and execute the
+scripts.]
+
+1. Write a C program that takes n number of positive integers. Find the
+integer that appears the least number of times among the said integers. If
+there are multiple such integers, select the smallest one. Go to the editor
+
+Sample Date:
+(1,2,3) -> 1
+(10, 20, 4, 5, 11) -> 4
+Click me to see the solution
+
+2. Write a C program that takes a string and two integers (n1, n2). Now
+reverse the sequence of characters of the string between n1 and n2. Go to the
+editor
+Sample Date:
+("abcdxyabcd", 5, 6) -> "abcdyxabcd"
+("Exercises", 1, 3) -> "exercises"
+
+Click me to see the solution
+
+3. Write a C program that accepts three integers from the user and find second
+largest number among these. Go to the editor
+Constraints:
+
+1≤ x ≤100
+1≤ y ≤100
+1≤ z ≤100
+Sample Date:
+(1 , 2, 3) -> 2
+(10, 12, 24) -> 12
+(34, 21, 30) -> 30
+
+Click me to see the solution
+
+4. Write a C program that accepts two sequences ((a1, a2, .. an), (b1, b2, ..
+bn)) of integers as input. Find all integers that appear in both sequences,
+one by one, in ascending order. Go to the editor
+Constraints:
+
+1≤N1≤100, N1 -> number of integers in first sequence.
+1≤N2≤100, N2 -> number of integers in second sequence.
+1 ≤ ai≤ 100 ( 1 ≤ i ≤ N1 )
+1 ≤ bj≤ 100 ( 1 ≤ j ≤ N2 )
+Sample Date:
+
+( 1 2 3 1 2 3 4) -> 1 2 3
+( 1 2 3 1 2 3) -> 1 2 3
+(1 2 3 4 5 6) ->
+
+Click me to see the solution
+
+5. Write a C program that accept a sequence of different values and calculate
+the sum of the values before, after the maximum value. Go to the editor
+The sum of the values before the maximum value is 0, if there are no values
+before the maximum. Similarly, the sum of the values after the maximum value
+is 0, if there are no values after the maximum.
+Sample Date:
+
+1 2 3 -> 3 0
+1 2 9 4 5 -> 3 9
+2 2 2 2 -> 0 6
+
+Click me to see the solution
+
+6. Write a C program that accept a sequence of positive integers from the user
+and find the length of the longest continuous subsequence from the said
+sequence. Go to the editor
+Sample Date:
+
+Length of the sequence: 5
+Sequence: 5 2 3 4 1
+Length of longest ascending contiguous subsequence: 5 [2 3 4]
+Length of the sequence: 6
+Sequence: 10 20 30 40 50 60
+Length of longest ascending contiguous subsequence: 6 [10 20 30 40 50 60]
+Length of the sequence: 3
+Sequence: 5 1 3
+Length of longest ascending contiguous subsequence: 2 [1 3]
+
+Click me to see the solution
+
+7. Write a C program that accepts three integers A, B, X. Out of the integers
+between A and B (inclusive) find the smallest absolute value of difference
+from X. Go to the editor
+Sample Date:
+
+Input A, B: 7, 11
+C: 20
+Smallest absolute value of difference between X and integers between A and B
+(inclusive): 11
+Input A, B: 1, 5
+C: 4
+Smallest absolute value of difference between X and integers between A and B
+(inclusive): 4
+
+Click me to see the solution

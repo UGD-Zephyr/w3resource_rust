@@ -1,0 +1,309 @@
+C Searching and Sorting Algorithm [31 exercises with solution]
+[An editor is available at the bottom of the page to write and execute the
+scripts.]
+
+Searching: [5 exercises with solution]
+1. Write a C program to find the position of a target value within a sorted
+array using Binary search. Go to the editor
+Binary Search : In computer science, a binary search or half-interval search
+algorithm finds the position of a target value within a sorted array. The
+binary search algorithm can be classified as a dichotomies divide-and-conquer
+search algorithm and executes in logarithmic time.
+Click me to see the solution
+
+2. Write a C program to find the position of a target value within a array
+using Interpolation search. Go to the editor
+From Wikipedia:
+Interpolation search is an algorithm for searching for a key in an array that
+has been ordered by numerical values assigned to the keys (key values). It was
+first described by W. W. Peterson in 1957. Interpolation search resembles the
+method by which people search a telephone directory for a name (the key value
+by which the book's entries are ordered): in each step the algorithm
+calculates where in the remaining search space the sought item might be, based
+on the key values at the bounds of the search space and the value of the
+sought key, usually via a linear interpolation. The key value actually found
+at this estimated position is then compared to the key value being sought. If
+it is not equal, then depending on the comparison, the remaining search space
+is reduced to the part before or after the estimated position. This method
+will only work if calculations on the size of differences between key values
+are sensible.
+Click me to see the solution
+
+3. Write a C program to find the position of a target value within a sorted
+array using Jump search. Go to the editor
+Click me to see the solution
+
+4. Write a C program to find the position of a target value within a array
+using Linear search. Go to the editor
+In computer science, a Linear search or sequential search is a method for
+finding an element within a list. It sequentially checks each element of the
+list until a match is found or the whole list has been searched
+Click me to see the solution
+
+5. Write a C program to find the position of a target value within a array
+using Ternary search. Go to the editor
+From Wikipedia
+A ternary search algorithm is a technique in computer science for finding the
+minimum or maximum of a unimodal function. A ternary search determines either
+that the minimum or maximum cannot be in the first third of the domain or that
+it cannot be in the last third of the domain, then repeats on the remaining
+two thirds. A ternary search is an example of a divide and conquer algorithm.
+Click me to see the solution
+
+Sorting: [26 exercises with solution]
+1. Write a C program to sort a list of elements using the selection sort
+algorithm. Go to the editor
+According to Wikipedia "In computer science, selection sort is a sorting
+algorithm, specifically an in-place comparison sort. It has O(n2) time
+complexity, making it inefficient on large lists, and generally performs worse
+than the similar insertion sort".
+Note :
+a) To find maximum of elements
+b) To swap two elements
+Click me to see the solution
+
+2. Write a C program to sort a list of elements using the bubble sort
+algorithm. Go to the editor
+Bubble Sort works by repeatedly swapping the adjacent elements if they are in
+wrong order.
+Click me to see the solution
+
+3. Write a C program to sort a list of elements using the insertion sort
+algorithm. Go to the editor
+Insertion sort is a simple sorting algorithm that builds the final sorted
+array (or list) one item at a time. It is much less efficient on large lists
+than other algorithms such as quicksort, heapsort, or merge sort.
+Click me to see the solution
+
+4. Write a C program to sort a list of elements using the merge sort
+algorithm. Go to the editor
+Merge sort is an O(n log n) comparison-based sorting algorithm. Most
+implementations produce a stable sort, which means that the implementation
+preserves the input order of equal elements in the sorted output.
+Click me to see the solution
+
+5. Write a C program to sort numbers using heap sort algorithm (MAX heap). Go
+to the editor
+A sorting algorithm that works by first organizing the data to be sorted into
+a special type of binary tree called a heap.
+Click me to see the solution
+
+6. Write a C program to sort a list of elements using the quick sort
+algorithm. Go to the editor
+Quick sort is a comparison sort, meaning that it can sort items of any type
+for which a "less-than" relation (formally, a total order) is defined.
+Note: Read n values into array and Sort using Quick Sort
+Click me to see the solution
+
+7. Write a C program to sort a list of elements using the radix sort
+algorithm. Go to the editor
+Radix sort is a non-comparative integer sorting algorithm that sorts data with
+integer keys by grouping keys by the individual digits which share the same
+significant position and value.
+Click me to see the solution
+
+8. Write a C Program for counting sort. Go to the editor
+According to Wikipedia “In computer science, counting sort is an algorithm for
+sorting a collection of objects according to keys that are small integers;
+that is, it is an integer sorting algorithm. It operates by counting the
+number of objects that have each distinct key value, and using arithmetic on
+those counts to determine the positions of each key value in the output
+sequence. Its running time is linear in the number of items and the difference
+between the maximum and minimum key values, so it is only suitable for direct
+use in situations where the variation in keys is not significantly greater
+than the number of items. However, it is often used as a subroutine in another
+sorting algorithm, radix sort, that can handle larger keys more efficiently”.
+Click me to see the solution
+
+9. Write a C program to display sorted list using Gnome sort. Go to the editor
+Gnome sort is a sorting algorithm originally proposed by Dr. Hamid
+Sarbazi-Azad (Professor of Computer Engineering at Sharif University of
+Technology) in 2000 and called "stupid sort" (not to be confused with
+bogosort), and then later on described by Dick Grune and named "gnome sort".
+The algorithm always finds the first place where two adjacent elements are in
+the wrong order, and swaps them. It takes advantage of the fact that
+performing a swap can introduce a new out-of-order adjacent pair only next to
+the two swapped elements.
+Click me to see the solution
+
+10. Write a C program that sort numbers using shell sorting method. Go to the
+editor
+According to Wikipedia "Shell sort or Shell's method, is an in-place
+comparison sort. It can be seen as either a generalization of sorting by
+exchange (bubble sort) or sorting by insertion (insertion sort). The method
+starts by sorting pairs of elements far apart from each other, then
+progressively reducing the gap between elements to be compared. Starting with
+far apart elements can move some out-of-place elements into position faster
+than a simple nearest neighbor exchange."
+Click me to see the solution
+
+11. Write a C program that sort numbers using QuickSort method. Go to the
+editor
+Note: According to Wikipedia "Quicksort is a comparison sort, meaning that it
+can sort items of any type for which a "less-than" relation (formally, a total
+order) is defined. Inefficient implementations it is not a stable sort,
+meaning that the relative order of equal sort items is not preserved.
+Quicksort can operate in-place on an array, requiring small additional amounts
+of memory to perform the sorting."
+Click me to see the solution
+
+12. Write a C program that sort numbers using Bead Sort method. Go to the
+editor
+According to Wikipedia "Bead sort, also called gravity sort, is a natural
+sorting algorithm, developed by Joshua J. Arulanandham, Cristian S. Calude and
+Michael J. Dinneen in 2002, and published in The Bulletin of the European
+Association for Theoretical Computer Science. Both digital and analog hardware
+implementations of bead sort can achieve a sorting time of O(n); however, the
+implementation of this algorithm tends to be significantly slower in software
+and can only be used to sort lists of positive integers. Also, it would seem
+that even in the best case, the algorithm requires O(n2) space".
+Click me to see the solution
+
+13. Write a C program that sort numbers using Bogo Sort method. Go to the
+editor
+In computer science, Bogo Sort is a particularly ineffective sorting algorithm
+based on the generate and test paradigm. The algorithm successively generates
+permutations of its input until it finds one that is sorted. It is not useful
+for sorting but may be used for educational purposes, to contrast it with
+other more realistic algorithms.
+Click me to see the solution
+
+14. Write a C program that sort numbers using Cocktail Sort method. Go to the
+editor
+Cocktail shaker sort (also known as bidirectional bubble sort, cocktail sort,
+shaker sort, ripple sort, shuffle sort, or shuttle sort ) is a variation of
+bubble sort that is both a stable sorting algorithm and a comparison sort. The
+algorithm differs from a bubble sort in that it sorts in both directions on
+each pass through the list. This sorting algorithm is only marginally more
+difficult to implement than a bubble sort and solves the problem of turtles in
+bubble sorts. It provides only marginal performance improvements, and does not
+improve asymptotic performance; like the bubble sort, it is not of practical
+interest, though it finds some use in education.
+Click me to see the solution
+
+15. Write a C program that sort numbers using Cycle sort method. Go to the
+editor
+Cycle sort is an in-place, unstable sorting algorithm, a comparison sort that
+is theoretically optimal in terms of the total number of writes to the
+original array, unlike any other in-place sorting algorithm. It is based on
+the idea that the permutation to be sorted can be factored into cycles, which
+can individually be rotated to give a sorted result.
+Click me to see the solution
+
+16. Write a C program that sort numbers using Permutation Sort method. Go to
+the editor
+Permutation sort, proceeds by generating the possible permutations of the
+input array/list until discovering the sorted one.
+Click me to see the solution
+
+17. Write a C program to sort a list of elements using the insertionsort
+algorithm. Go to the editor
+Input numbers you want to input: Input 5 values to sort
+
+The ascending order of the values:
+11
+13
+15
+20
+25
+Click me to see the solution
+18. Write a C program that sort numbers using Stooge Sort method. Go to the
+editor
+Stooge sort is a recursive sorting algorithm with a time complexity of O(nlog
+3 / log 1.5 ) = O(n2.7095...). The running time of the algorithm is thus
+slower compared to efficient sorting algorithms, such as Merge sort, and is
+even slower than Bubble sort.
+Click me to see the solution
+
+19. Write a C program that sort numbers using Randomised quick sort method. Go
+to the editor
+From Wikipedia:
+A simple example is randomized QuickSort, where the pivot is chosen randomly,
+and divides the elements into three partitions: elements less than pivot,
+elements equal to pivot, and elements greater than pivot. The randomized
+QuickSort require a lot of resources but always generate the sorted array as
+an output.
+It is obvious that QuickSort always generates the solution which in this case
+the sorted array. Unfortunately, the time complexity is not that obvious. It
+turns out that the running time depends on which element we pick as a pivot.
+Click me to see the solution
+
+20. Write a C program that sort numbers using Pigeonhole sort method. Go to
+the editor
+From Wikipedia:
+Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists
+of elements where the number of elements (n) and the length of the range of
+possible key values (N) are approximately the same. It requires O(n + N) time.
+It is similar to counting sort, but differs in that it "moves items twice:
+once to the bucket array and again to the final destination [whereas] counting
+sort builds an auxiliary array then uses the array to compute each item's
+final destination and move the item there.
+The pigeonhole algorithm works as follows:
+Given an array of values to be sorted, set up an auxiliary array of initially
+empty "pigeonholes", one pigeonhole for each key in the range of the keys in
+the original array.
+Going over the original array, put each value into the pigeonhole
+corresponding to its key, such that each pigeonhole eventually contains a list
+of all values with that key.
+Iterate over the pigeonhole array in increasing order of keys, and for each
+pigeonhole, put its elements into the original array in increasing order.
+Click me to see the solution
+
+21. Write a C program that sort numbers using partition sort method. Go to the
+editor
+Partition-exchange sort is an efficient sorting algorithm. Developed by
+British computer scientist Tony Hoare in 1959 and published in 1961, it is
+still a commonly used algorithm for sorting. When implemented well, it can be
+about two or three times faster than its main competitors, merge sort and
+heapsort.
+Click me to see the solution
+
+22. Write a C program that sort numbers using Pancake sort method. Go to the
+editor
+From Wikipedia,
+Pancake sorting is the colloquial term for the mathematical problem of sorting
+a disordered stack of pancakes in order of size when a spatula can be inserted
+at any point in the stack and used to flip all pancakes above it. A pancake
+number is the minimum number of flips required for a given number of pancakes.
+In this form, the problem was first discussed by American geometer Jacob E.
+Goodman. A variant of the problem is concerned with burnt pancakes, where each
+pancake has a burnt side and all pancakes must, in addition, end up with the
+burnt side on bottom.
+Click me to see the solution
+
+23. Write a C program that sort numbers using Multi-key quicksort method. Go
+to the editor
+Multi-key quicksort, also known as three-way radix quicksort, is an algorithm
+for sorting strings. This hybrid of quicksort and radix sort was originally
+suggested by P. Shackleton, as reported in one of C.A.R. Hoare's seminal
+papers on quicksort, its modern incarnation was developed by Jon Bentley and
+Robert Sedgewick in the mid-1990s. The algorithm is designed to exploit the
+property that in many problems, strings tend to have shared prefixes.
+Click me to see the solution
+
+24. Write a C program that sort numbers using Comb sort method. Go to the
+editor
+From Wikipedia,
+Comb sort is a relatively simple sorting algorithm originally designed by
+Włodzimierz Dobosiewicz and Artur Borowy in 1980, later rediscovered by
+Stephen Lacey and Richard Box in 1991. Comb sort improves on bubble sort.
+Click me to see the solution
+
+25. Write a C program that sort numbers using Bucket sort method. Go to the
+editor
+From Wikipedia,
+Bucket sort, or bin sort, is a sorting algorithm that works by distributing
+the elements of an array into a number of buckets. Each bucket is then sorted
+individually, either using a different sorting algorithm, or by recursively
+applying the bucket sorting algorithm. It is a distribution sort, a
+generalization of pigeonhole sort, and is a cousin of radix sort in the
+most-to-least significant digit flavor. Bucket sort can be implemented with
+comparisons and therefore can also be considered a comparison sort algorithm.
+Click me to see the solution
+
+26. Write a C program that sort numbers using Binary insertion sort method. Go
+to the editor
+Binary insertion sort employs a binary search to determine the correct
+location to insert new elements, and therefore performs ⌈log2 n⌉ comparisons
+in the worst case, which is O(n log n).
+Click me to see the solution

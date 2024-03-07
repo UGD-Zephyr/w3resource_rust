@@ -1,0 +1,609 @@
+C Linked List [30 exercises with solution]
+[An editor is available at the bottom of the page to write and execute the
+scripts.]
+
+1. Write a program in C to create and display Singly Linked List. Go to the
+editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 6
+Input data for node 3 : 7
+Expected Output :
+
+ Data entered in the list :                                                                                   
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7 
+Click me to see the solution
+
+2. Write a program in C to create a singly linked list of n nodes and display
+it in reverse order. Go to the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 6
+Input data for node 3 : 7
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ The list in reverse are :                                                                                    
+ Data = 7                                                                                                     
+ Data = 6                                                                                                     
+ Data = 5 
+Click me to see the solution
+
+3. Write a program in C to create a singly linked list of n nodes and count
+the number of nodes. Go to the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 6
+Input data for node 3 : 7
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7
+      
+ Total number of nodes = 3  
+Click me to see the solution
+
+4. Write a program in C to insert a new node at the beginning of a Singly
+Linked List. Go to the editor
+Test Data and Expected Output :
+
+ Input the number of nodes : 3                                                                                
+ Input data for node 1 : 5                                                                                    
+ Input data for node 2 : 6                                                                                    
+ Input data for node 3 : 7                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ Input data to insert at the beginning of the list : 4                                                        
+                                                                                                              
+ Data after inserted in the list are :                                                                        
+ Data = 4                                                                                                     
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7  
+Click me to see the solution
+
+5. Write a program in C to insert a new node at the end of a Singly Linked
+List. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 5                                                                                    
+ Input data for node 2 : 6                                                                                    
+ Input data for node 3 : 7                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+                                                                                                              
+ Input data to insert at the end of the list : 8                                                              
+                                                                                                              
+ Data, after inserted in the list are :                                                                       
+ Data = 5                                                                                                     
+ Data = 6                                                                                                     
+ Data = 7                                                                                                     
+ Data = 8   
+Click me to see the solution
+
+6. Write a program in C to insert a new node at the middle of Singly Linked
+List. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes (3 or more) : 4                                                                    
+ Input data for node 1 : 1                                                                                    
+ Input data for node 2 : 2                                                                                    
+ Input data for node 3 : 3                                                                                    
+ Input data for node 4 : 4                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 1                                                                                                     
+ Data = 2                                                                                                     
+ Data = 3                                                                                                     
+ Data = 4                                                                                                     
+                                                                                                              
+ Input data to insert in the middle of the list : 5                                                           
+ Input the position to insert new node : 3                                                                    
+                                                                                                              
+ Insertion completed successfully.                                                                             
+                                                                                                              
+ The new list are :                                                                                           
+ Data = 1                                                                                                     
+ Data = 2                                                                                                     
+ Data = 5                                                                                                     
+ Data = 3                                                                                                     
+ Data = 4  
+Click me to see the solution
+
+7. Write a program in C to delete first node of Singly Linked List. Go to the
+editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 2
+Input data for node 2 : 3
+Input data for node 3 : 4
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data = 2                                                                                                     
+ Data = 3                                                                                                     
+ Data = 4                                                                                                     
+                                                                                                              
+ Data of node 1 which is being deleted is :  2                                                                
+                                                                                                              
+ Data, after deletion of first node :                                                                         
+ Data = 3                                                                                                     
+ Data = 4 
+Click me to see the solution
+
+8. Write a program in C to delete a node from the middle of Singly Linked
+List. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 2                                                                                                     
+ Data = 5                                                                                                     
+ Data = 8                                                                                                     
+                                                                                                              
+ Input the position of node to delete : 2                                                                     
+                                                                                                              
+ Deletion completed successfully.                                                                             
+                                                                                                              
+ The new list are  :                                                                                          
+ Data = 2                                                                                                     
+ Data = 8  
+Click me to see the solution
+
+9. Write a program in C to delete the last node of Singly Linked List. Go to
+the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 1
+Input data for node 2 : 2
+Input data for node 3 : 3
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data = 1                                                                                                     
+ Data = 2                                                                                                     
+ Data = 3                                                                                                     
+                                                                                                              
+ The new list after deletion the last node are  :                                                             
+ Data = 1                                                                                                     
+ Data = 2 
+Click me to see the solution
+
+10. Write a program in C to search an existing element in a singly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+                                                                                                              
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data = 2                                                                                                     
+ Data = 5                                                                                                     
+ Data = 8                                                                                                     
+                                                                                                              
+ Input the element to be searched : 5                                                                         
+ Element found at node 2 
+Click me to see the solution
+
+11. Write a program in C to create and display a doubly linked list. Go to the
+editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 2
+Input data for node 2 : 5
+Input data for node 3 : 8
+Expected Output :
+
+ Data entered on the list are :                                                                               
+ node 1 : 2                                                                                                   
+ node 2 : 5                                                                                                   
+ node 3 : 8 
+Click me to see the solution
+
+12. Write a program in C to create a doubly linked list and display in reverse
+order. Go to the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 2
+Input data for node 2 : 5
+Input data for node 3 : 8
+Expected Output :
+
+ Data in reverse order are :                                                                                  
+ Data in node 1 : 8                                                                                           
+ Data in node 2 : 5                                                                                           
+ Data in node 3 : 2 
+Click me to see the solution
+
+13. Write a program in C to insert a new node at the beginning in a doubly
+linked list. Go to the editor
+Test Data and Expected Output :
+
+ Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 2                                                                                                   
+ node 2 : 5                                                                                                   
+ node 3 : 8                                                                                                   
+ Input data for the first node : 1                                                                            
+                                                                                                              
+ After insertion the new list are :                                                                           
+ node 1 : 1                                                                                                   
+ node 2 : 2                                                                                                   
+ node 3 : 5                                                                                                   
+ node 4 : 8  
+Click me to see the solution
+
+14. Write a program in C to insert a new node at the end of a doubly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 2                                                                                                   
+ node 2 : 5                                                                                                   
+ node 3 : 8                                                                                                   
+ Input data for the last node : 9                                                                             
+                                                                                                              
+ After insertion the new list are :                                                                           
+ node 1 : 2                                                                                                   
+ node 2 : 5                                                                                                   
+ node 3 : 8                                                                                                   
+ node 4 : 9 
+Click me to see the solution
+
+15. Write a program in C to insert a new node at any position in a doubly
+linked list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 4                                                                                    
+ Input data for node 3 : 5                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 2                                                                                                   
+ node 2 : 4                                                                                                   
+ node 3 : 5                                                                                                   
+ Input the position ( 2 to 2 ) to insert a new node : 2                                                       
+ Input data for the position 2 : 3                                                                            
+                                                                                                              
+ After insertion the new list are :                                                                           
+ node 1 : 2                                                                                                   
+ node 2 : 3                                                                                                   
+ node 3 : 4                                                                                                   
+ node 4 : 5 
+Click me to see the solution
+
+16. Write a program in C to insert a new node at the middle in a doubly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+  Doubly Linked List : Insert new node at the middle in a doubly linked list :                                 
+----------------------------------------------------------------------------------                            
+ Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 4                                                                                    
+ Input data for node 3 : 5                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 2                                                                                                   
+ node 2 : 4                                                                                                   
+ node 3 : 5                                                                                                   
+ Input the position ( 2 to 2 ) to insert a new node : 2                                                       
+ Input data for the position 2 : 3                                                                            
+                                                                                                              
+ After insertion the new list are :                                                                           
+ node 1 : 2                                                                                                   
+ node 2 : 3                                                                                                   
+ node 3 : 4                                                                                                   
+ node 4 : 5
+Click me to see the solution
+
+17. Write a program in C to delete a node from the beginning of a doubly
+linked list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 1                                                                                    
+ Input data for node 2 : 2                                                                                    
+ Input data for node 3 : 3                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 1                                                                                                   
+ node 2 : 2                                                                                                   
+ node 3 : 3                                                                                                   
+                                                                                                              
+ After deletion the new list are :                                                                            
+ node 1 : 2                                                                                                   
+ node 2 : 3   
+Click me to see the solution
+
+18. Write a program in C to delete a node from the last of a doubly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 1                                                                                    
+ Input data for node 2 : 2                                                                                    
+ Input data for node 3 : 3                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 1                                                                                                   
+ node 2 : 2                                                                                                   
+ node 3 : 3                                                                                                   
+                                                                                                              
+ After deletion the new list are :                                                                            
+ node 1 : 1                                                                                                   
+ node 2 : 2    
+Click me to see the solution
+
+19. Write a program in C to delete a node from any position of a doubly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+ Doubly Linked List : Delete node from any position of a doubly linked list :                                 
+----------------------------------------------------------------------------------                            
+ Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 1                                                                                    
+ Input data for node 2 : 2                                                                                    
+ Input data for node 3 : 3                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 1                                                                                                   
+ node 2 : 2                                                                                                   
+ node 3 : 3                                                                                                   
+ Input the position ( 1 to 3 ) to delete a node : 3                                                           
+                                                                                                              
+ After deletion the new list are :                                                                            
+ node 1 : 1                                                                                                   
+ node 2 : 2 
+Click me to see the solution
+
+20. Write a program in C to delete a node from the middle of a doubly linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes (3 or more ): 3                                                                    
+ Input data for node 1 : 1                                                                                    
+ Input data for node 2 : 2                                                                                    
+ Input data for node 3 : 3                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ node 1 : 1                                                                                                   
+ node 2 : 2                                                                                                   
+ node 3 : 3                                                                                                   
+ Input the position ( 1 to 3 ) to delete a node : 2                                                           
+                                                                                                              
+ After deletion the new list are :                                                                            
+ node 1 : 1                                                                                                   
+ node 2 : 3   
+Click me to see the solution
+
+21. Write a program in C to find the maximum value from a doubly linked list.
+Go to the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 5
+Input data for node 2 : 9
+Input data for node 3 : 1
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ node 1 : 5                                                                                                   
+ node 2 : 9                                                                                                   
+ node 3 : 1                                                                                                   
+                                                                                                              
+ The Maximum Value in the Linked List : 9  
+Click me to see the solution
+
+22. Write a program in C to create and display a circular linked list. Go to
+the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 2
+Input data for node 2 : 5
+Input data for node 3 : 8
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8
+Click me to see the solution
+
+23. Write a program in C to insert a node at the beginning of a circular
+linked list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+ Input data to be inserted at the beginning : 1                                                               
+                                                                                                              
+ After insertion the new list are :                                                                           
+ Data 1 = 1                                                                                                   
+ Data 2 = 2                                                                                                   
+ Data 3 = 5                                                                                                   
+ Data 4 = 8  
+Click me to see the solution
+
+24. Write a program in C to insert a node at the end of a circular linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+ Input the data to be inserted : 9                                                                            
+                                                                                                              
+ After insertion the new list are :                                                                           
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+ Data 4 = 9 
+Click me to see the solution
+
+25. Write a program in C to insert a node at any position in a circular linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+ Input the position to insert a new node : 3                                                                  
+ Input data for the position 3 : 7                                                                            
+                                                                                                              
+ After insertion the new list are :                                                                           
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 7                                                                                                   
+ Data 4 = 8 
+Click me to see the solution
+
+26. Write a program in C to delete node from the beginning of a circular
+linked list. Go to the editor
+Test Data :
+Input the number of nodes : 3
+Input data for node 1 : 2
+Input data for node 2 : 5
+Input data for node 3 : 8
+Expected Output :
+
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+                                                                                                              
+ The deleted node is -> 2                                                                                     
+ After deletion the new list are :                                                                            
+ Data 1 = 5                                                                                                   
+ Data 2 = 8 
+Click me to see the solution
+
+27. Write a program in C to delete a node from the middle of a circular linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+                                                                                                              
+ Input the position to delete the node : 3                                                                    
+                                                                                                              
+ The deleted node is : 8                                                                                      
+ After deletion the new list are :                                                                            
+ Data 1 = 2                                                                                                   
+ Data 2 = 5  
+Click me to see the solution
+
+28. Write a program in C to delete the node at the end of a circular linked
+list. Go to the editor
+Test Data and Expected Output :
+
+Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 8                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 8                                                                                                   
+                                                                                                              
+ The deleted node is : 8                                                                                      
+ After deletion the new list are :                                                                            
+ Data 1 = 2                                                                                                   
+ Data 2 = 5  
+Click me to see the solution
+
+29. Write a program in C to search an element in a circular linked list. Go to
+the editor
+Test Data and Expected Output :
+
+ Circular Linked List : Search an element in a circular linked list :                                         
+-------------------------------------------------------------------------                                     
+ Input the number of nodes : 3                                                                                
+ Input data for node 1 : 2                                                                                    
+ Input data for node 2 : 5                                                                                    
+ Input data for node 3 : 9                                                                                    
+                                                                                                              
+ Data entered in the list are :                                                                               
+ Data 1 = 2                                                                                                   
+ Data 2 = 5                                                                                                   
+ Data 3 = 9                                                                                                   
+ Input the element you want to find : 5                                                                       
+ Element found at node 2
+Click me to see the solution
+
+30. Write a C programming to sort a given linked list by bubble sort. Go to
+the editor
+Test Data and Expected Output : 5
+15
+33
+49
+6
+65
+
+ Input number of elements in the linked list? Input the elements in the linked
+list:
+Sorted order is: 
+6	15	33	49	65
+Click me to see the solution
